@@ -1,5 +1,5 @@
 # PowerShell Script that uses WMI to enumerate hardware characteristics about machines (servers) on the network.
-# (C) 2011 Jackie Singh
+# Jackie Singh, 2011
 #
 # Expected format for Servers.txt is one hostname or IP per line in plaintext.
 #
