@@ -1,5 +1,5 @@
 # PowerShell Script that uses WMI to collect software information about machines (servers) on the network.
-# (C) 2011 Jackie Singh
+# Jackie Singh, 2011
 #
 # Expected format for Servers.txt is one hostname or IP per line in plaintext.
 #
@@ -36,7 +36,7 @@ foreach ($server in get-content "C:\Servers.txt")
          $Sheet.Cells.Item($intRow,2) = "VERSION"
 
              #Format the column headers
-             for ($col = 1; $col –le 2; $col++)
+             for ($col = 1; $col ï¿½le 2; $col++)
              {
                   $Sheet.Cells.Item($intRow,$col).Font.Bold = $True
                   $Sheet.Cells.Item($intRow,$col).Interior.ColorIndex = 48
