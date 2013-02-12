@@ -36,7 +36,7 @@ foreach ($server in get-content "C:\Servers.txt")
          $Sheet.Cells.Item($intRow,2) = "VERSION"
 
              #Format the column headers
-             for ($col = 1; $col $le 2; $col++)
+             for ($col = 1; $col -le 2; $col++)
              {
                   $Sheet.Cells.Item($intRow,$col).Font.Bold = $True
                   $Sheet.Cells.Item($intRow,$col).Interior.ColorIndex = 48
