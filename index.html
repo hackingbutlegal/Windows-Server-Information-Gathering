@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Windows Server Info Gathering by jackiesingh</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Windows Server Info Gathering</h1>
+        <p>PowerShell that uses WMI to grab Windows server hardware/software characteristics and outputs neatly to Excel</p>
+
+        <p class="view"><a href="https://github.com/jackiesingh/Windows-Server-Information-Gathering">View the Project on GitHub <small>jackiesingh/Windows-Server-Information-Gathering</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/jackiesingh/Windows-Server-Information-Gathering/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/jackiesingh/Windows-Server-Information-Gathering/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/jackiesingh/Windows-Server-Information-Gathering">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>These are a couple PowerShell scripts that use WMI to gather Windows server hardware and software characteristics and output neatly to Excel for analysis.</p>
+
+<p>If you are in charge of a bunch of Windows servers, this can come in handy. I wrote these one day at work to help conduct (manual) security audits.</p>
+
+<p>Populate c:\Servers.txt with one hostname or IP address per line. Must be resolvable hostnames, or timeouts will occur and the script will drag, best to do this in preprocessing</p>
+
+<p>You must open PowerShell with a network account that will have Administrator rights on the machines you intend to query. I prefer to run cmd.exe and then open PowerShell from that command line (and keep it open).</p>
+
+<p>You may also need to login to the individual machines and install WMI (type "wmic" at the command line).</p>
+
+<p>Happy recon!</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/jackiesingh">jackiesingh</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
